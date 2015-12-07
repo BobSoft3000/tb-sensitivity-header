@@ -1,8 +1,8 @@
-# Thunderbird Sensity Header Addon
+# Thunderbird Sensitivity Header Addon
 
 This simple addon currently allows the user to add a sensitivity indicator ('Personal/Private/Company-Confidential') to an outgoing message via an option in the tools menu, or from an optional drop-down toolbar menu (similar to message priority).
 While adding this header does not directly add any security to the message, the header can be interpreted by some MTA/MUAs such that the message is treated differently while in transit, or when viewed by the recipient:
-* e.g. MS Outlook/Exchange: Can be set so that confidential/personal messages are unable to be read by the recipient's delegated users; A warning can be displayed before the message is forwareded; Displays an advisory message above content.
+* e.g. MS Outlook/Exchange: Can be set so that confidential/personal messages are unable to be read by the recipient's delegated users; A warning can be displayed before the message is forwarded; Displays an advisory message above content.
 * e.g. Some versions of Symantec PGP in corporate set-ups can automatically encrypt the outgoing message if leaving the corporate network, or redirect it to a secure corporate webmail page (with an automated notification email to the recipient to collect it there).
 
 Please note that other MTA/MUA software (e.g. Popular webmail systems, Thunderbird without this add-on) may <i>completely ignore</i> the header as it is not commonly used outside of corporate environments.  Therefore, please do not solely rely on it for ensuring your message is treated as intended.
