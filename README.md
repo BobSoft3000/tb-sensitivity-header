@@ -1,4 +1,6 @@
-# Thunderbird Sensitivity Header Addon
+# Thunderbird Sensitivity Header Addon (Archived)
+
+**I no longer have the means to keep this add-on updated and the code is now archived.  By all means, if anyone wants to take the code and fork it, please do so.**
 
 This simple addon currently allows the user to add a sensitivity indicator ('Personal/Private/Company-Confidential') to an outgoing message via an option in the tools menu, or from an optional drop-down toolbar menu (similar to message priority).
 While adding this header does not directly add any security to the message, the header can be interpreted by some MTA/MUAs such that the message is treated differently while in transit, or when viewed by the recipient:
